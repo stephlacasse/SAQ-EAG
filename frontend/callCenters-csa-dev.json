@@ -1,0 +1,19 @@
+{"centers":
+    [
+        {
+            "nom": "CSA-Corpo",
+            "numero": "+1 514-470-3218",
+            "description": "Centre de Service Admin pour le Corpo"
+        },
+        {
+            "nom": "CSA-Succ",
+            "numero": "+1 514-470-3220",
+            "description": "Centre de Service Admin pour les Succursales"
+        },
+        {
+            "nom": "CSA-SQDC",
+            "numero": "+1 514-470-3221",
+            "description": "Centre de Service Admin pour la SQDC"
+        }
+    ]    
+}

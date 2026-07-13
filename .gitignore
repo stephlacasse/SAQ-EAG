@@ -1,0 +1,53 @@
+# ------------------------------
+# React Vite Frontend
+# ------------------------------
+ 
+# Dependency directories
+node_modules/
+ 
+# Build output directory for Vite (typically "dist")
+dist/
+ 
+# Vite cache directory
+.vite/
+ 
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Editor / IDE directories
+.vscode/
+.idea/
+ 
+# OS generated files
+.DS_Store
+Thumbs.db
+ 
+ 
+# ------------------------------
+# Terraform Backend
+# ------------------------------
+ 
+# Terraform working directory
+.terraform/
+ 
+# Terraform state files (sensitive)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+ 
+# Terraform override files (if any)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+ 
+# Local Terraform configuration files
+.terraformrc
+terraform.rc
+ 
+# lambda function builds
+builds
+builds/*

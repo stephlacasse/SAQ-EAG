@@ -1,0 +1,24 @@
+{"centers":
+    [
+        {
+            "nom": "RestoMTL",
+            "numero": "+1 514-470-2957",
+            "description": "Centre de contact Restauration MTL"
+        },
+        {
+            "nom": "RestoQC",
+            "numero": "+1 514-470-2963",
+            "description": "Centre de contact Restauration QC"
+        },
+        {
+            "nom": "RestoCACD",
+            "numero": "+1 514-470-2957",
+            "description": "Centre de relation clientèle Restauration"
+        },        
+        {
+            "nom": "CommandesPrivees",
+            "numero": "+1 514-470-2957",
+            "description": "Centre de contact Commandes Privées"
+        }
+    ]    
+}

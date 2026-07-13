@@ -1,0 +1,61 @@
+.content-group {
+    margin-top: 20px;
+    background-color: var(--content-bg);
+    margin-right: 20px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Table Title */
+.table-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #7A003C;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+/* Table Styling */
+.centre-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Header Styling */
+.centre-table th {
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    color: var(--light-text-color);
+    border-bottom: 0.5px dashed var(--light-color);
+}
+
+/* Row Styling */
+.centre-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 0.5px dashed var(--light-color);
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.centre-table tr:hover {
+    background-color: #fafafa;
+}
+
+/* Make Table Responsive */
+@media (max-width: 768px) {
+    .centre-table {
+        width: 100%;
+    }
+
+    .centre-table th, .centre-table td {
+        font-size: 14px;
+    }
+}
+  

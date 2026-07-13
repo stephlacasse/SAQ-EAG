@@ -1,0 +1,94 @@
+/* Auth.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    width: 400px;
+}
+
+.auth-box {
+    text-align: center;
+    width: 400px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #425462;
+    margin: 0px;
+}
+
+.logo img {
+    max-width: 400px;
+}
+
+.auth-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.auth-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-button {
+    width: 100%;
+    background-color: #a4d65e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background-color: #94c551;
+}
+
+.divider {
+    color: #999;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.sso-button {
+    width: 100%;
+    background-color: #d8d8d8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sso-button:hover {
+    background-color: #cfcfcf;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    width: 400px;
+}

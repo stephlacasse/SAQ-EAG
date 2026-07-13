@@ -1,0 +1,19 @@
+{"centers":
+    [
+        {
+            "nom": "CRC-SAQ",
+            "numero": "+1 514-807-5770",
+            "description": "Centre de Service CRC SAQ"
+        },
+        {
+            "nom": "CRC-SQDC",
+            "numero": "+1 514-807-5721",
+            "description": "Centre de Service CRC SQDC"
+        },
+        {
+            "nom": "SARA",
+            "numero": "+1 514-470-2915",
+            "description": "Centre de Service SARA"
+        }
+     ]    
+}
