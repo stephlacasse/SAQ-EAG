@@ -1,7 +1,7 @@
 variable "projet" {
   description = "L'accronyme du projet pour lequel cet EAG est deployer"
   type        = string
-  default     = "ppse"
+  default     = "resto"
 }
 
 variable "region" {
@@ -13,13 +13,13 @@ variable "region" {
 variable "env" {
   description = "Environment name (dev or prod)"
   type        = string
-  default     = "dev"
+  default     = "test"
 
 }
 variable "use_bilingual_messages" {
   description = "Flag to enable/disable bilingual messages feature (true/false)"
   type        = string
-  default     = "false"
+  default     = "true"
 
   validation {
     condition     = var.use_bilingual_messages == "true" || var.use_bilingual_messages == "false"
