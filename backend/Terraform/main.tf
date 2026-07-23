@@ -9,14 +9,14 @@ terraform {
 
   backend "s3" {
     #profile = "861276084014_AWSAdministratorAccess" #ProfileDev
-    profile = "038462790905_AWSAdministratorAccess" #ProfileTest
-    #profile = "597088060431_AWSAdministratorAccess" #ProfileProd
+    #profile = "038462790905_AWSAdministratorAccess" #ProfileTest
+    profile = "597088060431_AWSAdministratorAccess" #ProfileProd
   }
 }
 
 provider "aws" {
   #profile = "861276084014_AWSAdministratorAccess" #ProfileDev
-  profile = "038462790905_AWSAdministratorAccess" #ProfileTest
-  #profile = "597088060431_AWSAdministratorAccess" #ProfileProd
+  #profile = "038462790905_AWSAdministratorAccess" #ProfileTest
+  profile = "597088060431_AWSAdministratorAccess" #ProfileProd
   region = "ca-central-1"
 }

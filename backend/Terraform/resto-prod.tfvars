@@ -1,3 +1,3 @@
 env    = "prod"
 projet = "resto"
-use_bilingual_messages = "false"
+use_bilingual_messages = "true"
