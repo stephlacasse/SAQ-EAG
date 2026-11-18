@@ -11,9 +11,9 @@ variable "region" {
 }
 
 variable "env" {
-  description = "Environment name (dev or prod)"
+  description = "Environment name (test or prod)"
   type        = string
-  default     = "test"
+  default     = "prod"
 
 }
 variable "use_bilingual_messages" {
