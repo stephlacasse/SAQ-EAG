@@ -1,7 +1,7 @@
 variable "projet" {
   description = "L'accronyme du projet pour lequel cet EAG est deployer"
   type        = string
-  default     = "resto"
+  default     = "crc"
 }
 
 variable "region" {
